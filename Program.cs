@@ -21,7 +21,7 @@ var summaries = new[]
 
 app.MapGet("/", () => "Hello World! Welcome to .NET on Docker!");
 
-app.MapGet("/ping", () => "pong");
+app.MapGet("/ping", () => "pong pong pong!");
 
 app.MapGet("/weatherforecast", () =>
 {
